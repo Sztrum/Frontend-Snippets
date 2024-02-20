@@ -1,0 +1,42 @@
+.arrow-left::before {
+  content: "<";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow-right::after {
+  content: ">";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.arrow-left {
+  left: -50px;
+}
+
+.arrow-right {
+  right: -50px;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  border-radius: 50%;
+  background-color: rgb(206, 206, 206);
+  color: #333;
+  font-size: 16px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.szlider_list_ {
+  transition: 0.3s;
+}
