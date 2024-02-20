@@ -1,0 +1,10 @@
+src
+webpack.config.js
+tailwind.config.js
+postcss.config.js
+node_modules
+.eslintrc.json
+.prettierignore
+.prettierrc
+eslint.config.js
+.vscode
