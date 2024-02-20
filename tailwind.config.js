@@ -1,18 +1,12 @@
+/** @type {import('tailwindcss').Config} */
+
 module.exports = {
-  purge: [
-    "./dist/**/*.html",
-    "./src/js/*.js",
-  ],
-  content: ["./src/css/*.{html,js}"],
+  content: ["./src/**/*.{html,js}", "./dist/*.{html,js}"],
   theme: {
     fontFamily: {
       seg: ["Segoe UI", "Sans", "Arial"],
     },
     extend: {},
   },
-  plugins: [
-    require("tailwindcss"),
-    require("autoprefixer"),
-    require("@tailwindcss/forms"),
-  ],
+  plugins: [],
 };

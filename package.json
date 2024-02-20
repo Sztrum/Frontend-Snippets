@@ -1,7 +1,7 @@
 {
-  "name": "cheatsheet-sztrum",
+  "name": "Frontend-snippets",
   "version": "1.0.0",
-  "description": "",
+  "description": "This repository contains short scripts that can be reused in other projects. Whether you're looking for handy utilities, common functions, or snippets to streamline your coding process, you'll find a collection of versatile scripts here ready to enhance your projects. Fork, clone, and integrate these scripts into your workflow to expedite development and maintain consistency across your projects.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,7 +28,8 @@
     "postcss": "^8.4.35",
     "postcss-cli": "^11.0.0",
     "postcss-import": "^16.0.0",
-    "prettier": "3.2.5",
+    "prettier": "^3.2.5",
+    "prettier-eslint": "^16.3.0",
     "tailwindcss": "^3.4.1",
     "webpack": "^5.90.1",
     "webpack-cli": "^5.1.4"
